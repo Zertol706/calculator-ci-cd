@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "Zertol706/calculator-ci-cd",
+  "pipelineDirectory": "calculator-ci-cd",
+  "workspaceDirectory": "calculator-ci-cd\\calculator-ci-cd",
+  "repositories": {
+    "Zertol706/calculator-ci-cd": {
+      "repositoryPath": "calculator-ci-cd\\calculator-ci-cd",
+      "lastRunOn": "11/25/2026 20:58:21 +02:00"
+    }
+  },
+  "lastRunOn": "11/25/2026 20:58:21 +02:00"
+}

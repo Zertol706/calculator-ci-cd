@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "VERONIKA3",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus8.actions.githubusercontent.com/bg0fz57Ot2aTVBGXqzNjFtbQFR4pJqp4s3kFkgEN1SZOtlrt9a/",
+  "gitHubUrl": "https://github.com/Zertol706/calculator-ci-cd",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
