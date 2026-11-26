@@ -18,15 +18,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Python Version
+        shell: cmd
         run: py --version
 
       - name: Unit Tests
+        shell: cmd
         run: py -m unittest -v
 
       - name: Deploy to Production
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        shell: powershell
+        shell: cmd
         run: |
-          $destination = "C:\CI-CD-Demo\Prod dir"
-          New-Item -ItemType Directory -Force -Path $destination
-          Copy-Item ".\Calculator.py" -Destination $destination -Force
+          if not exist "C:\CI-CD-Demo\Prod dir" mkdir "C:\CI-CD-Demo\Prod dir"
+          copy /Y "Calculator.py" "C:\CI-CD-Demo\Prod dir\Calculator.py"
