@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-labelledby="title description">
+  <title id="title">Calculator CI/CD pipeline flow</title>
+  <desc id="description">Push or pull request triggers checkout, Python setup, unit tests, and deployment only for a push to main.</desc>
+  <rect width="920" height="340" fill="#f6f8fa" rx="18"/>
+  <text x="460" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#172b4d">Python Calculator CI/CD</text>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <rect x="28" y="110" width="150" height="92" rx="12" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+    <text x="103" y="146" font-size="17" font-weight="700" fill="#172b4d">GitHub event</text>
+    <text x="103" y="173" font-size="14" fill="#172b4d">push / pull request</text>
+    <path d="M182 156h27" stroke="#57606a" stroke-width="3"/>
+    <path d="m202 148 9 8-9 8" fill="none" stroke="#57606a" stroke-width="3"/>
+    <rect x="218" y="110" width="145" height="92" rx="12" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+    <text x="290" y="151" font-size="17" font-weight="700" fill="#172b4d">Checkout</text>
+    <text x="290" y="176" font-size="14" fill="#172b4d">repo code</text>
+    <path d="M367 156h27" stroke="#57606a" stroke-width="3"/>
+    <path d="m387 148 9 8-9 8" fill="none" stroke="#57606a" stroke-width="3"/>
+    <rect x="403" y="110" width="155" height="92" rx="12" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+    <text x="480" y="151" font-size="17" font-weight="700" fill="#172b4d">Set up Python</text>
+    <text x="480" y="176" font-size="14" fill="#172b4d">version 3.12</text>
+    <path d="M562 156h27" stroke="#57606a" stroke-width="3"/>
+    <path d="m582 148 9 8-9 8" fill="none" stroke="#57606a" stroke-width="3"/>
+    <rect x="598" y="110" width="145" height="92" rx="12" fill="#dafbe1" stroke="#1a7f37" stroke-width="2"/>
+    <text x="670" y="151" font-size="17" font-weight="700" fill="#172b4d">Unit Tests</text>
+    <text x="670" y="176" font-size="14" fill="#172b4d">unittest -v</text>
+    <path d="M747 156h27" stroke="#57606a" stroke-width="3"/>
+    <path d="m767 148 9 8-9 8" fill="none" stroke="#57606a" stroke-width="3"/>
+    <rect x="783" y="110" width="112" height="92" rx="12" fill="#fbefff" stroke="#8250df" stroke-width="2"/>
+    <text x="839" y="148" font-size="16" font-weight="700" fill="#172b4d">Deploy</text>
+    <text x="839" y="175" font-size="13" fill="#172b4d">push main only</text>
+    <text x="460" y="260" font-size="15" fill="#57606a">Windows x64 self-hosted runner</text>
+    <text x="460" y="291" font-size="14" fill="#57606a">Pull request: tests only  |  Push to main: tests, then copy to production folder</text>
+  </g>
+</svg>
